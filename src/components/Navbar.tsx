@@ -5,7 +5,7 @@ import { Menu, X, Leaf } from "lucide-react";
 import { Button } from "@/components/ui/button";
 const navItems = [
   { name: "Home", href: "/" },
-  { name: "Features", href: "/#features" },
+  { name: "Marketplace", href: "/marketplace" },
   { name: "Mandi Prices", href: "/mandi-prices" },
   { name: "About", href: "/#about" },
 ];
