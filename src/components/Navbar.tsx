@@ -7,6 +7,7 @@ const navItems = [
   { name: "Home", href: "/" },
   { name: "Marketplace", href: "/marketplace" },
   { name: "Mandi Prices", href: "/mandi-prices" },
+  { name: "How It Works", href: "/how-it-works" },
   { name: "About", href: "/#about" },
 ];
 
