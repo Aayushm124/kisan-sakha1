@@ -61,12 +61,16 @@ export function Navbar() {
 
           {/* CTA Buttons */}
           <div className="hidden md:flex items-center gap-3">
-            <Button variant="ghost" size="sm">
-              Login
-            </Button>
-            <Button variant="default" size="sm">
-              Get Started
-            </Button>
+            <Link to="/auth">
+              <Button variant="ghost" size="sm">
+                Login
+              </Button>
+            </Link>
+            <Link to="/auth">
+              <Button variant="default" size="sm">
+                Get Started
+              </Button>
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -111,12 +115,16 @@ export function Navbar() {
                 )
               ))}
               <div className="pt-4 flex flex-col gap-2">
-                <Button variant="outline" className="w-full">
-                  Login
-                </Button>
-                <Button variant="default" className="w-full">
-                  Get Started
-                </Button>
+                <Link to="/auth" onClick={() => setIsOpen(false)}>
+                  <Button variant="outline" className="w-full">
+                    Login
+                  </Button>
+                </Link>
+                <Link to="/auth" onClick={() => setIsOpen(false)}>
+                  <Button variant="default" className="w-full">
+                    Get Started
+                  </Button>
+                </Link>
               </div>
             </div>
           </motion.div>
